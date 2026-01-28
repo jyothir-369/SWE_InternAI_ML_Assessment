@@ -1,35 +1,34 @@
-# Face Recognition System
-
+# Face Recognition System  
 **Python + OpenCV + Mediapipe + face_recognition**
 
 A real-time face registration and recognition system using your webcam.
 
-- Register users by capturing multiple face samples
+- Register users by capturing multiple face samples  
 - Recognize registered users live with name + confidence score
 
-Powered by:
-- **Mediapipe** → fast face detection
-- **face_recognition** → dlib-based 128D face encodings
+Powered by:  
+- **Mediapipe** → fast face detection  
+- **face_recognition** → dlib-based 128D face encodings  
 - **OpenCV** → webcam access & visualization
 
 ## Features
 
-- Register new users with 5 face samples
-- Real-time face recognition from webcam
-- Multi-user support
-- Similarity / confidence score displayed
-- Simple controls:
-  - `c` → capture sample (during registration)
-  - `q` / `ESC` → quit
+- Register new users with 5 face samples  
+- Real-time face recognition from webcam  
+- Multi-user support  
+- Similarity / confidence score displayed  
+- Simple controls:  
+  - `c` → capture sample (during registration)  
+  - `q` / `ESC` → quit  
 - Face encodings stored securely in `face_db.pkl`
 
 ## Tech Stack
 
-- Python 3.8+
-- `opencv-python`
-- `mediapipe`
-- `face_recognition`
-- `numpy`
+- Python 3.8+  
+- `opencv-python`  
+- `mediapipe`  
+- `face_recognition`  
+- `numpy`  
 - `pickle` (for storing encodings)
 
 ## Project Structure
