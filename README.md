@@ -42,7 +42,7 @@ text## Installation
 1. Clone the repository (or download ZIP)
 
 ```bash
-git clone https://github.com/yourusername/face-recognition-system.git
+git clone https://github.com/jyothir-369/face-recognition-system.git
 cd face-recognition-system
 
 Install required packages
