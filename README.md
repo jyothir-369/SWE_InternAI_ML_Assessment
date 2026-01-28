@@ -32,18 +32,24 @@ Powered by:
 - `pickle` (for storing encodings)
 
 ## Project Structure
-face-recognition-system/
-├── register_face.py       # Script to register new users
-├── recognize_face.py      # Real-time recognition script
-├── face_db.pkl            # Auto-generated database of face encodings
+
+Files are located directly in the repository root:
+SWE_InternAI_ML_Assessment/
+├── register_face.py              # Script to register new users
+├── recognize_face.py             # Real-time recognition script
+├── recognize_and_attendance.py   # (Optional) Recognition + attendance logging
+├── spoof_detection.py            # (Optional) Basic spoof/anti-spoof check
+├── camera_test.py                # (Optional) Webcam test utility
+├── face_db.pkl                   # Auto-generated database of face encodings
+├── attendance.csv                # (Optional) Attendance log
 └── README.md
 text## Installation
 
-1. Clone the repository (or download ZIP)
+1. Clone the repository
 
 ```bash
-git clone [https://github.com/jyothir-369/face-recognition-system.git](https://github.com/jyothir-369/SWE_InternAI_ML_Assessment)
-cd face-recognition-system
+git clone https://github.com/jyothir-369/SWE_InternAI_ML_Assessment.git
+cd SWE_InternAI_ML_Assessment
 
 Install required packages
 
@@ -77,8 +83,8 @@ Unknown faces labeled as "Unknown"
 Press q or ESC to quit
 
 Example display:
-textJyothir (Similarity: 0.96)
-Unknown (Similarity: 0.42)
+textJyothir       (Similarity: 0.96)
+Unknown       (Similarity: 0.42)
 Best Practices & Tips
 
 Use good, even lighting
