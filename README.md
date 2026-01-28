@@ -103,6 +103,8 @@ Python{
     "Alice":   numpy.ndarray(128,),
     ...
 }
+
+
 Possible Future Improvements
 
 Recognize multiple faces in the same frame
@@ -114,7 +116,9 @@ Add age/gender/emotion estimation
 
 License
 Educational / personal use only.
-Feel free to fork, modify, and learn from this project.
+Feel free to fork, modify, and learn from this project
+
+.
 Author
 Jyothir Raghavalu Bhogi
 📧 jyothirraghavalu369@gmail.com
